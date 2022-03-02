@@ -1,13 +1,110 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: red;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.background {
+  background-image: url(https://wallpaperaccess.com/full/2772923.jpg);
+}
+
+.welcome {
+  text-align: center;
+  font-size: 40px;
+}
+
+.series-poster {
+  width: 350px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.series-name {
+  margin: 0px;
+  font-size: 26px;
+  color: red;
+}
+
+.series-rating {
+  margin: 0px;
+  padding-top: 12px;
+  font-size: 19px;
+}
+
+.series-summary {
+  font-size: 18px;
+  margin: 0px;
+  padding-top: 7px;
+}
+
+.series-container {
+  height: min-content;
+  width: 350px;
+}
+
+.series-specs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.icons {
+  display: flex;
+}
+
+.appbar {
+  margin-bottom: 25px;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  width: 30%;
+}
+
+.details-name{
+  color: red;
+  font-size: 32px;
+  margin: 0px;
+  padding: 15px;
+}
+
+.details-rating{
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0px;
+  padding-left: 15px;
+}
+
+.details-summary{
+  margin: 0px;
+  padding: 15px;
+  font-size: 17px;
+  width: 85%;
+  font-weight: bold;
+}
+
+.details-button{
+  text-align: center;
+}
+
+.edit-heading{
+  text-align: center;
+}
+
+.not-found{
+  text-align: center;
+  font-size: 40px;
+  color: orange;
 }
